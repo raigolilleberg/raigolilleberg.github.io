@@ -1,2 +1,2 @@
-# Codecademy front-end studies playground
-raigolilleberg.github.io
+# Codecademy learnings
+Feel free to tag along. 
