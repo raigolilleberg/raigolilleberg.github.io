@@ -1,2 +1,2 @@
-# Codecademy front-end studies playground
+# Playground
 raigolilleberg.github.io
