@@ -1,2 +1,2 @@
-# github.io
-Codecademy front-end studies playground
+# Codecademy front-end studies playground
+raigolilleberg.github.io
