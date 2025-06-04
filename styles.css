@@ -1,0 +1,91 @@
+
+/* quick reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*  */
+
+/* global styles — text */
+h1,
+caption,
+p {
+  font-family: sans-serif;
+  color: #1a1a1a;
+}
+h1 {
+  font-size: 2.5rem;
+}
+caption,
+p,
+th,
+td {
+  font-size: 1.25rem;
+}
+a:hover {
+  opacity: .5;
+}
+/*  */
+
+/* global styles — layout */
+.container {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+header,
+main,
+footer {
+  width: 100%;
+}
+/*  */
+
+/* header section */
+header {
+  margin-top: 6vw;
+  margin-bottom: 4vw;
+}
+header h1 {
+  margin-bottom: 1vw;
+}
+/*  */
+
+/* main section */
+main {
+  margin-bottom: 4vw;
+}
+  /* table formatting */
+  table {
+    font-family: sans-serif;
+    text-align: left;
+  }
+  caption {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 1vw;
+  }
+  th {
+    font-weight: normal;
+    background-color: hsl(0, 0%, 86%);
+  }
+  td {
+    background-color: hsl(0, 0%, 96%);
+  }
+  th,
+  td {
+    padding: .5rem 1rem;
+  }
+  /*  */
+
+  /* footer section */
+  footer p {
+    opacity: .5;
+  }
+  /*  */
+
+
+
+/*  */
