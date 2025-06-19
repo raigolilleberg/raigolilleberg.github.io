@@ -1,96 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project-02</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-05 / The Tea Cozy</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 
-    <div class="container">
-    
-      <!-- Header -->
-    <header>
-      <h1>HTML Tables</h1>
-      <p>Reference cheatlist for building custom tables in HTML. </p>
-    </header>
-
-    <!-- Main content -->
-    <main>
-
-      <!-- Table elemetns -->
-      <table>
-        <caption>Table elements</caption>
-        <thead>
-          <tr>
-            <th scope="col">Tag</th>
-            <th scope="col">Name</th>
-            <th scope="col">Description</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td scope="row"><code>table</code></td>
-            <td>Table</td>
-            <td>Defines a table (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/table" alt="link to more information about the table element at MDN web docs">more</a>).</td>
-          </tr>
-          <tr>
-            <td><code>caption</code></td>
-            <td>Caption</td>
-            <td>Defines a table caption.  (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/caption" alt="link to more information about the caption element at MDN web docs">more</a>).</td>
-          </tr>
-          <tr>
-            <td><code>thead</code></td>
-            <td>Table head</td>
-            <td>Groups the header content in a table (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/thead" alt="link to more information about the thead element at MDN web docs">more</a>).</td>
-          </tr>
-          <tr>
-            <td><code>colgroup</code></td>
-            <td>Column Group</td>
-            <td>Specifies a group of one or more columns in a table for formatting (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/colgroup" alt="link to more information about the colgroup element at MDN web docs">more</a>).</td>
-          </tr>
-          <tr>
-            <td><code>col</code></td>
-            <td>Column</td>
-            <td>Specifies column properties for each column within a <code>colgroup</code> element (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/col" alt="link to more information about the col element at MDN web docs">more</a>).</td>
-          </tr>
-          <tr>
-            <td><code>th</code></td>
-            <td>Table header</td>
-            <td>Defines a header cell in a table (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/th" alt="link to more information about the th element at MDN web docs">more</a>).</td>
-          </tr>
-          <tr>
-            <td><code>tbody</code></td>
-            <td>Table body</td>
-            <td>Groups the body content in a table (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/tbody" alt="link to more information about the tbody element at MDN web docs">more</a>).</td>
-          </tr>
-          <tr>
-            <td><code>tr</code></td>
-            <td>Row</td>
-            <td>Defines a row in a table (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/tr" alt="link to more information about the tr element at MDN web docs">more</a>).</td>
-          </tr>
-          <tr>
-            <td><code>td</code></td>
-            <td>Data cell</td>
-            <td>Defines a cell in a table (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/td" alt="link to more information about the td element at MDN web docs">more</a>).</td>
-          </tr>
-          <tr>
-            <td><code>tfoot</code></td>
-            <td>Table foot</td>
-            <td>Groups the footer content in a table (<a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/tfoot" alt="link to more information about the tfoot element at MDN web docs">more</a>).</td>
-          </tr>
-        </tbody>
-      </table>
-
-    </main>
-    
-    <!-- Footer -->
-    <footer>
-      <p>// <a href="https://github.com/raigolilleberg" target="_blank" alt="link to raigo's github profile">Raigo</a> // June, 2025</p>
-    </footer>
-
+  <!-- header content -->
+  <header>
+    <nav>
+      <a class="nav-logo" href="#"><img src="img/img-tea-cozy-logo.png" alt="company logo"></a>
+      <ul class="nav-items">
+        <li><p><a href="#mission">Mission</a></p></li>
+        <li><p><a href="#feat-tea">Featured Tea</a></p></li>
+        <li><p><a href="#locations">Locations</a></p></li>
+      </ul>
+    </nav>
+    <div class="our-mission" id="mission">
+      <h2>Our Mission</h2>
+      <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
     </div>
+  </header>
+
+  <!-- main content -->
+  <main>
+
+    <!-- section — tea of the month -->
+    <section class="tea-of-the-mo" id="feat-tea">
+      <h2>Tea of the Month</h2>
+      <p>What's sleeping at The The Cozy?</p>
+      <ul class="tea-types">
+        <li>
+          <img src="img/img-berryblitz.jpg" alt="">
+          <h4>Fall Berry Blitz Tea</h4>
+        </li>
+        <li>
+          <img src="img/img-spiced-rum.jpg" alt="">
+          <h4>Spiced Rum Tea</h4>
+        </li>
+        <li>
+          <img src="img/img-donut.jpg" alt="">
+          <h4>Seasonal Donuts</h4>
+        </li>
+        <li>
+          <img src="img/img-myrtle-ave.jpg" alt="">
+          <h4>Myrtle Ave Tea</h4>
+        </li>
+        <li>
+          <img src="img/img-bedford-bizarre.jpg" alt="">
+          <h4>Bedford Bizarre Tea</h4>
+        </li>
+      </ul>
+    </section>
+
+    <!-- section — locations -->
+     <section class="locations" id="locations">
+      <h2>Locations</h2>
+      <ul class="locations--addresses">
+        <li>
+          <h3>Downtown</h3>
+          <p>384 West 4th St</p>
+          <p>Suite 108</p>
+          <p>Portland, Maine</p>
+        </li>
+        <li>
+          <h3>East Bayside</h3>
+          <p>3433 Phiserman's Avenue</p>
+          <p>(Northwest corner)</p>
+          <p>Portland, Maine</p>
+        </li>
+        <li>
+          <h3>Oakdale</h3>
+          <p>515 Crescent Avenue</p>
+          <p>Second Floor</p>
+          <p>Portland, Maine</p>
+        </li>
+      </ul>
+     </section>
+
+    <!-- section — contacts -->
+     <section class="contacts">
+      <h2>The Tea Cozy</h2>
+      <h5>contact@theteacozy.com</h5>
+      <h5>917-555-8904</h5>
+     </section>
+    
+  </main>
+
+  <!-- footer content -->
+  <footer>
+    <p>copyright The Tea Cozy 2017</p>
+    <div class="footer-raigo">
+      <p>raigo lilleberg · june, 2025 · <a href="https://github.com/raigolilleberg/codecademy-front-end" target="_blank">project-05</a> · <a href="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg?_gl=1*d3y6be*_gcl_au*MTAwMTE2MzgwOS4xNzQ3NzYyNDUzLjExNTk0OTA5MTYuMTc0OTg5NjE2OC4xNzQ5ODk2MTc2*_ga*NDQ5NDYxOTgwNi4xNzM5NjU1NDM5*_ga_3LRZM6TM9L*czE3NTAzMjIyNTEkbzMkZzEkdDE3NTAzMjY2OTYkajU3JGwwJGgw" target="_blank">brief</a></p>
+    </div>
+  </footer>
 
 </body>
 </html>
